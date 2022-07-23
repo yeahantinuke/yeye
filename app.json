@@ -1,0 +1,17 @@
+{
+  "name": "antinuke",
+  "description": "antinuke",
+  "repository": "n",
+  "logo": "n",
+  "env": {
+    "mongoDB": {
+      "required": true,
+      "description": "Put your mongoose connection string here"
+    },
+    "settings": {
+      "required": true,
+      "description": "Edit the settings acording to your likings",
+      "value": "{\n\"bot\": {\n    \"info\": {\n      \"prefix\": \";\",\n      \"token\": \"tokenn\",\n      \"invLink\": \"https://dsc.gg/antiwizz\"\n    },\n    \"presence\": {\n      \"name\": \"wintrs on top\",\n      \"type\": \"STREAMING\",\n      \"url\": \"https://twitch.tv/pewdiepie\"\n    }\n  }\n}"
+    }
+  }
+}
