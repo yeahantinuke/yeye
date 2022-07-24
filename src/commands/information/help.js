@@ -17,17 +17,17 @@ module.exports = {
           {
             label: 'antinuke commands',
             value: 'cmds',
-            description: 'the toggling guide'
+            description: 'antinuke toggle commands'
           },
           {
             label: 'whitelist commands',
             value: 'wl',
-            description: 'the whitelisting guide'
+            description: 'whitelisting'
           },
           {
             label: 'bot information',
             value: 'credits',
-            description: 'who made this bot?'
+            description: 'creds'
           },
         ])
     )
@@ -68,7 +68,7 @@ module.exports = {
     const credits = new MessageEmbed()
       .setThumbnail(`${client.user.avatarURL({ dynamic: true })}`)
       .setColor('#2C2F33')
-      .setDescription(`**__credits__**\n﹒shows some bot information\n﹒also tells about the developer\n\n>>> **bot info**\n﹒developer: antisocial#6666\n﹒database: MongoDB\n﹒language: node.js\n﹒library: discord.js\n﹒host: heroku\n\n**bot stats**\n﹒users: ${users}\n﹒servers: ${client.guilds.cache.size}\n﹒ping: ${client.ws.ping}ms\n\n**homies**. \n james \n andy \n wex \n\n __**realest ^^^**__ :heart:`)
+      .setDescription(`**__credits__**\n﹒shows some bot information\n﹒also tells about the developer\n\n>>> **bot info**\n﹒developer: antisocial#6666\n﹒database: MongoDB\n﹒language: Node.JS\n﹒library: Discord.JS\n﹒host: Heroku\n\n**bot stats**\n﹒users: ${users}\n﹒servers: ${client.guilds.cache.size}\n﹒ping: ${client.ws.ping}ms\n\n**contributors**. \n antisocial#6666 \n jawms#0001 \n andy \n wex`)
 
     const filter = (i) => i.isSelectMenu();
     const collector = message.channel.createMessageComponentCollector({ filter, limit: 10 });
