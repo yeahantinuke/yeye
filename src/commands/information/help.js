@@ -7,7 +7,7 @@ module.exports = {
     const help = new MessageEmbed()
       .setThumbnail(`${client.user.avatarURL({ dynamic: true })}`)
       .setColor('#2C2F33')
-      .setDescription('__**wintrs**__\n﹒a powerful antinuke bot\n﹒includes admin whitelisting\n﹒has recovery feature\n\n__**features**__\n﹒anti channels, roles, webhooks\n﹒anti member update, kick, ban\n﹒anti community feature spam\n﹒anti guild vanity url snipe\n\n**;** *use the menu below to know how the bot works*');
+      .setDescription('__**GCG**__\n﹒a powerful antinuke bot\n﹒includes admin whitelisting\n﹒has recovery feature\n\n__**features**__\n﹒anti channels, roles, webhooks\n﹒anti member update, kick, ban\n﹒anti community feature spam\n﹒anti guild vanity url snipe\n\n**;** *use the menu below to know how the bot works*');
 
     const menuOptions = new MessageActionRow().addComponents(
       new MessageSelectMenu()
