@@ -68,7 +68,7 @@ module.exports = {
     const credits = new MessageEmbed()
       .setThumbnail(`${client.user.avatarURL({ dynamic: true })}`)
       .setColor('#2C2F33')
-      .setDescription(`**__credits__**\n﹒shows some bot information\n﹒also tells about the developer\n\n>>> **bot info**\n﹒developer: antisocial#6666\n﹒database: MongoDB\n﹒language: Node.JS\n﹒library: Discord.JS\n﹒host: Heroku\n\n**bot stats**\n﹒users: ${users}\n﹒servers: ${client.guilds.cache.size}\n﹒ping: ${client.ws.ping}ms\n\n**contributors**. \n jawms#0001`)
+      .setDescription(`**__CREDITS__**\n﹒shows some bot information\n﹒also tells about the developer\n\n>>> **bot info**\n﹒Developer: antisocial#6666\n﹒Database: MongoDB\n﹒Language: Node.JS\n﹒Library: Discord.JS\n﹒Host: Heroku\n\n**bot stats**\n﹒users: ${users}\n﹒servers: ${client.guilds.cache.size}\n﹒ping: ${client.ws.ping}ms\n\n**contributors**. \n jawms#0001`)
 
     const filter = (i) => i.isSelectMenu();
     const collector = message.channel.createMessageComponentCollector({ filter, limit: 10 });
